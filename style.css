@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@utility opacity-* {
+  opacity: --value([percentage]);
+  opacity: calc(--value(integer) * 1%);
+  opacity: --value(--opacity- *);
+}
